@@ -135,6 +135,41 @@ body {
   font-weight: 400;
 }
 
+/* load more button */
+.load-more {
+  display: none;
+  margin: 24px auto 0;
+  min-width: 125px;
+  height: 40px;
+  padding: 8px 16px;
+
+  border: none;
+  border-radius: 8px;
+  background-color: #4e75ff;
+  color: #ffffff;
+
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.load-more:hover,
+.load-more:focus {
+  background-color: #6c8cff;
+}
+
+.load-more:active {
+  background-color: #4068ee;
+}
+
+.load-more.is-visible {
+  display: block;
+}
+
 /* loader (css-loaders by lukehaas, Loader 1) */
 .loader,
 .loader::after {
